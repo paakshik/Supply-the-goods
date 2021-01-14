@@ -1,7 +1,7 @@
 /*function for setup basic*/;
 function startup1(){
 	createCanvas(1600,800);
-engine = Engine.create();
+var engine = Engine.create();
 world = engine.world;
 Engine.run(engine);
 }
