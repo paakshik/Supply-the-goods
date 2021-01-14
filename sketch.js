@@ -1,4 +1,7 @@
 /**function for loading all the files*/;
+var Engine = Matter.Engine,
+	World  = Matter.World,
+	Bodies = Matter.Bodies;
 function preload() {
     /**Helicoptor image loaded*/;
     helicopterImage = loadImage("helicopter.png");
